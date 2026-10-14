@@ -1,0 +1,182 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "alice",
+      "email": "alice@example.com",
+      "created_at": "2026-01-01T12:00:00Z"
+    },
+    {
+      "id": 2,
+      "username": "bob",
+      "email": "bob@example.com",
+      "created_at": "2026-01-03T12:00:00Z"
+    },
+    {
+      "id": 3,
+      "username": "chloe",
+      "email": "chloe@example.com",
+      "created_at": "2026-01-05T12:00:00Z"
+    },
+    {
+      "id": 4,
+      "username": "david",
+      "email": "david@example.com",
+      "created_at": "2026-01-08T12:00:00Z"
+    },
+    {
+      "id": 5,
+      "username": "emma",
+      "email": "emma@example.com",
+      "created_at": "2026-01-12T12:00:00Z"
+    },
+    {
+      "id": 6,
+      "username": "farid",
+      "email": "farid@example.com",
+      "created_at": "2026-01-15T12:00:00Z"
+    }
+  ],
+  "pins": [
+    {
+      "id": 1,
+      "title": "Chant des oiseaux",
+      "description": "Enregistré au parc",
+      "latitude": 48.8566,
+      "longitude": 2.3522,
+      "audio_url": "https://example.com/audio/sample.mp3",
+      "user_id": 1,
+      "created_at": "2026-02-01T10:00:00Z"
+    },
+    {
+      "id": 2,
+      "title": "Cloches de Notre-Dame",
+      "description": "Sonnerie de midi",
+      "latitude": 48.853,
+      "longitude": 2.3499,
+      "audio_url": "https://example.com/audio/bells.mp3",
+      "user_id": 1,
+      "created_at": "2026-02-02T10:00:00Z"
+    },
+    {
+      "id": 3,
+      "title": "Métro ligne 1",
+      "description": "Annonce et freinage en station",
+      "latitude": 48.8606,
+      "longitude": 2.3376,
+      "audio_url": "https://example.com/audio/metro.mp3",
+      "user_id": 2,
+      "created_at": "2026-02-03T10:00:00Z"
+    },
+    {
+      "id": 4,
+      "title": "Fontaine Saint-Michel",
+      "description": "Eau qui coule, ambiance étudiante",
+      "latitude": 48.8534,
+      "longitude": 2.3439,
+      "audio_url": "https://example.com/audio/fountain.mp3",
+      "user_id": 2,
+      "created_at": "2026-02-04T10:00:00Z"
+    },
+    {
+      "id": 5,
+      "title": "Marché d'Aligre",
+      "description": "Voix des commerçants le dimanche",
+      "latitude": 48.8493,
+      "longitude": 2.3786,
+      "audio_url": "https://example.com/audio/market.mp3",
+      "user_id": 3,
+      "created_at": "2026-02-05T10:00:00Z"
+    },
+    {
+      "id": 6,
+      "title": "Musicien du Sacré-Cœur",
+      "description": "Guitare sur les marches",
+      "latitude": 48.8867,
+      "longitude": 2.3431,
+      "audio_url": "https://example.com/audio/guitar.mp3",
+      "user_id": 3,
+      "created_at": "2026-02-06T10:00:00Z"
+    },
+    {
+      "id": 7,
+      "title": "Péniche sur le canal",
+      "description": "Clapotis et moteur au ralenti",
+      "latitude": 48.871,
+      "longitude": 2.366,
+      "audio_url": "https://example.com/audio/canal.mp3",
+      "user_id": 4,
+      "created_at": "2026-02-07T10:00:00Z"
+    },
+    {
+      "id": 8,
+      "title": "Tour Eiffel au crépuscule",
+      "description": "Foule et vent",
+      "latitude": 48.8584,
+      "longitude": 2.2945,
+      "audio_url": "https://example.com/audio/eiffel.mp3",
+      "user_id": 4,
+      "created_at": "2026-02-08T10:00:00Z"
+    },
+    {
+      "id": 9,
+      "title": "Orage sur Montmartre",
+      "description": "Tonnerre lointain",
+      "latitude": 48.8847,
+      "longitude": 2.34,
+      "audio_url": "https://example.com/audio/storm.mp3",
+      "user_id": 5,
+      "created_at": "2026-02-09T10:00:00Z"
+    },
+    {
+      "id": 10,
+      "title": "Cour de récréation",
+      "description": "Rires d'enfants",
+      "latitude": 48.845,
+      "longitude": 2.375,
+      "audio_url": "https://example.com/audio/school.mp3",
+      "user_id": 5,
+      "created_at": "2026-02-10T10:00:00Z"
+    },
+    {
+      "id": 11,
+      "title": "Gare de Lyon",
+      "description": "Annonces SNCF",
+      "latitude": 48.8443,
+      "longitude": 2.3744,
+      "audio_url": "https://example.com/audio/station.mp3",
+      "user_id": 6,
+      "created_at": "2026-02-11T10:00:00Z"
+    },
+    {
+      "id": 12,
+      "title": "Jardin du Luxembourg",
+      "description": "Bruit des pas sur le gravier",
+      "latitude": 48.8462,
+      "longitude": 2.3372,
+      "audio_url": "https://example.com/audio/garden.mp3",
+      "user_id": 6,
+      "created_at": "2026-02-12T10:00:00Z"
+    },
+    {
+      "id": 13,
+      "title": "Quai de Seine",
+      "description": "Pluie fine sur la Seine",
+      "latitude": 48.8566,
+      "longitude": 2.35,
+      "audio_url": "https://example.com/audio/rain.mp3",
+      "user_id": 1,
+      "created_at": "2026-02-13T10:00:00Z"
+    },
+    {
+      "id": 14,
+      "title": "Café de Flore",
+      "description": "Tasses et conversations",
+      "latitude": 48.8541,
+      "longitude": 2.3326,
+      "audio_url": "https://example.com/audio/cafe.mp3",
+      "user_id": 2,
+      "created_at": "2026-02-14T10:00:00Z"
+    }
+  ]
+}
